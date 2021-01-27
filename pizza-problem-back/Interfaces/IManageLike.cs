@@ -8,6 +8,6 @@ namespace pizza_problem_back.Interfaces
 {
     public interface IManageLike
     {
-        Task<Pizza> LikePizza(int id,string username);
+        Task LikePizza(string username);
     }
 }

@@ -24,6 +24,11 @@ namespace pizza_problem_back.Controllers
             _config = config;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="userForRegisterDto"></param>
+        /// <returns></returns>
         [HttpPost("Register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
@@ -44,6 +49,11 @@ namespace pizza_problem_back.Controllers
             return StatusCode(201);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="userForLoginDto"></param>
+        /// <returns></returns>
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {

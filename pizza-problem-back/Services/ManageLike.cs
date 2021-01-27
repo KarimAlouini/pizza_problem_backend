@@ -16,21 +16,12 @@ namespace pizza_problem_back.Services
             _context = context;
         }
 
-        public async Task<Pizza> LikePizza(int id, string username)
+        public async Task LikePizza(string username)
         {
-            Pizza pizza = await _context.Pizzas.FirstOrDefaultAsync(x => x.Id == id);
-            if (pizza == null)
-            {
-                return null;
-            }
-
             User userConnected = await _context.Users.FirstOrDefaultAsync(x => x.UserName.Equals(username));
             userConnected.NbrPizzaLike++;
-            pizza.Likenumber++;
-            _context.Update(pizza);
             _context.Update(userConnected);
             await _context.SaveChangesAsync();
-            return pizza;
         }
     }
 }
