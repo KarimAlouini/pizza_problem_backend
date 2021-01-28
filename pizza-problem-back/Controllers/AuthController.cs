@@ -29,7 +29,7 @@ namespace pizza_problem_back.Controllers
         /// </summary>
         /// <param name="userForRegisterDto"></param>
         /// <returns></returns>
-        [HttpPost("Register")]
+        [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
 

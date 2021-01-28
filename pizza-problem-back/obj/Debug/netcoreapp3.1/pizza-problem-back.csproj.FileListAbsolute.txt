@@ -66,3 +66,4 @@ C:\Users\aloui\Desktop\Interview\pizza-problem-backend\pizza-problem-back\obj\De
 C:\Users\aloui\Desktop\Interview\pizza-problem-backend\pizza-problem-back\obj\Debug\netcoreapp3.1\pizza-problem-back.dll
 C:\Users\aloui\Desktop\Interview\pizza-problem-backend\pizza-problem-back\obj\Debug\netcoreapp3.1\pizza-problem-back.pdb
 C:\Users\aloui\Desktop\Interview\pizza-problem-backend\pizza-problem-back\obj\Debug\netcoreapp3.1\pizza-problem-back.genruntimeconfig.cache
+C:\Users\aloui\Desktop\Interview\pizza-problem-backend\pizza-problem-back\obj\Debug\netcoreapp3.1\pizza-problem-back.csprojAssemblyReference.cache
